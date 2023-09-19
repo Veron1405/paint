@@ -1,0 +1,28 @@
+canvas {
+    border: 2px solid black;
+}
+body {
+    text-align: center;
+}
+
+.colorButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Defina as cores de fundo com base no atributo data-color */
+  .colorButton[data-color="#ff0000"] {
+    background-color: #ff0000;
+  }
+  
+  .colorButton[data-color="#00ff00"] {
+    background-color: #00ff00;
+  }
+  
+  .colorButton[data-color="#0000ff"] {
+    background-color: #0000ff;
+  }
+
